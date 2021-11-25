@@ -1,9 +1,11 @@
-.button{
-    color: red;
+.button {
+    color: white;
+    background-color: red;
     text-align: center;
     padding: 12px;
     font-size: 16;
     border: grey;
+    border-radius: 5px;
     margin: 12px;
-    width: 20px;
+    width: 100px;
 }

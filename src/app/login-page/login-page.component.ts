@@ -7,7 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LoginPageComponent implements OnInit {
 
-  constructor() { }
+  constructor() { 
+    console.log("I am getting triggered!");
+  }
 
   ngOnInit(): void {
   }
