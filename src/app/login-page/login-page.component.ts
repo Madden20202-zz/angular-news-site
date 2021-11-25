@@ -7,8 +7,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LoginPageComponent implements OnInit {
 
-  constructor() { 
-    console.log("I am getting triggered!");
+  buttonClicked = false;
+
+  constructor(){
+    if (this.buttonClicked == true) {
+      console.log("Button was Clicked!");
+    } else {
+      console.log("Button Ready");
+    }
+  }
+  onButtonClicked(buttonClicked: boolean){
+    return buttonClicked == true;
   }
 
   ngOnInit(): void {
