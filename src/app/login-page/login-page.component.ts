@@ -9,15 +9,16 @@ export class LoginPageComponent implements OnInit {
 
   buttonClicked = false;
 
-  constructor(){
+  constructor(){ }
+  
+  onButtonClicked(buttonClicked: boolean){
+    return buttonClicked == true;
+
     if (this.buttonClicked == true) {
       console.log("Button was Clicked!");
     } else {
-      console.log("Button Ready");
+      console.log("There was an Error");
     }
-  }
-  onButtonClicked(buttonClicked: boolean){
-    return buttonClicked == true;
   }
 
   ngOnInit(): void {
