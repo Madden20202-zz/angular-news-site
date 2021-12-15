@@ -8,19 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LoginPageComponent implements OnInit {
 
-  buttonClicked = false;
-
   constructor(){ }
-  
-  onButtonClicked(buttonClicked: boolean){
-    return buttonClicked == true;
-
-    if (this.buttonClicked == true) {
-      console.log("Button was Clicked!");
-    } else {
-      console.log("There was an Error");
-    }
-  }
 
   ngOnInit(): void {
   }
