@@ -14,3 +14,7 @@ export class LoginPageComponent implements OnInit {
   }
 
 }
+
+export class userLogin {
+  userName = new FormControl('');
+}
