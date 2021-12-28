@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl } from '@angular/forms';
 import { Routes, RouterModule } from '@angular/router';
+import { LoginScreenComponent } from '../login-screen/login-screen.component';
+import { SignupScreenComponent } from '../signup-screen/signup-screen.component';
 
 @Component({
   selector: 'app-login-page',
@@ -8,6 +10,11 @@ import { Routes, RouterModule } from '@angular/router';
   styleUrls: ['./login-page.component.css']
 })
 export class LoginPageComponent implements OnInit {
+
+  const loginRoutes: Routes = [
+    { path: 'login', component: LoginScreenComponent },
+    { path: 'sign-up', component: SignupScreenComponent}
+  ]
 
   constructor(){ }
 
