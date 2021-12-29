@@ -10,3 +10,9 @@
     margin: 12px;
     width: 100px;
 }
+
+.loginButtons{
+    align-items: left;
+    margin: 20px;
+    padding: 5px;
+}
