@@ -11,7 +11,7 @@ import { SignupScreenComponent } from '../signup-screen/signup-screen.component'
 })
 export class LoginPageComponent implements OnInit {
 
-  const loginRoutes: Routes = [
+  loginRoutes: Routes = [
     { path: 'login', component: LoginScreenComponent },
     { path: 'sign-up', component: SignupScreenComponent}
   ]
