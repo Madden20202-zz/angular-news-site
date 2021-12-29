@@ -22,17 +22,4 @@ export class LoginPageComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
-  goToSignUp() {
-    return alert("Sign Up Works");
-  }
-  goToLogin() {
-    return alert("Login Works");
-  }
-
-}
-
-export class userLogin {
-  userName = new FormControl('');
-  passWord = new FormControl('');
 }
