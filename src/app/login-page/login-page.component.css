@@ -11,8 +11,12 @@
     width: 100px;
 }
 
-.loginButtons{
-    align-items: left;
+button:hover {
+    color: red;
+    opacity: 0.6;
+}
+
+.loginSection{
     margin: 20px;
     padding: 5px;
 }
