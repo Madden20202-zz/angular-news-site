@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { FormControl } from '@angular/forms';
 import { Routes, RouterModule } from '@angular/router';
 import { LoginScreenComponent } from '../login-screen/login-screen.component';
 import { PageNotFoundComponent } from '../page-not-found/page-not-found.component';
