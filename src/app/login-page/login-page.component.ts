@@ -12,15 +12,15 @@ import { SignupScreenComponent } from '../signup-screen/signup-screen.component'
 })
 export class LoginPageComponent implements OnInit {
 
-  loginRoutes: Routes = [
+  appRoutes: Routes = [
     { path: 'login', component: LoginScreenComponent },
     { path: 'sign-up', component: SignupScreenComponent},
     { path: 'home', component: AppComponent},
     { path: '**', component: PageNotFoundComponent }
-  ]
+  ];
+
 
   constructor(){ }
 
-  ngOnInit(): void {
-  }
+  ngOnInit(): void { }
 }
