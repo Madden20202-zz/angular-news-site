@@ -10,8 +10,14 @@ const routes: Routes = [
   { path: 'login', component: LoginScreenComponent },
   { path: 'sign-up', component: SignupScreenComponent},
   { path: 'home', component: AppComponent},
+  // the redirect has to be in front of the wild card
+  // in order to function properly, otherwise it will 
+  // use the wild card, making the redirect useless
+  // create a main splash page, lable that home, and 
+  // label the old home to companyTitle, since it is the 
+  // name and slogan
+  { path: '', redirectTo: '/home', pathMatch: 'full'},
   { path: '**', component: PageNotFoundComponent },
-  { path: '', redirectTo: '/home', pathMatch: 'full'}
 ];
 
 @NgModule({
