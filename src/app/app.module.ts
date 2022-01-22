@@ -8,7 +8,7 @@ import { LoginPageComponent } from './login-page/login-page.component';
 import { LoginScreenComponent } from './login-screen/login-screen.component';
 import { SignupScreenComponent } from './signup-screen/signup-screen.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
-import { HomeScreenComponent } from './main-screen/home-screen/home-screen.component';
+import { HomeScreenComponent } from './main-page/home-screen/home-screen.component';
 
 @NgModule({
   declarations: [
