@@ -8,6 +8,7 @@ import { LoginPageComponent } from './login-page/login-page.component';
 import { LoginScreenComponent } from './login-screen/login-screen.component';
 import { SignupScreenComponent } from './signup-screen/signup-screen.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { HomeScreenComponent } from './home-screen/home-screen/home-screen.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     LoginPageComponent,
     LoginScreenComponent,
     SignupScreenComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    HomeScreenComponent
   ],
   imports: [
     BrowserModule,
