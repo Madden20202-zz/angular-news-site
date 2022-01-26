@@ -4,7 +4,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { LoginPageComponent } from './login-page/login-page.component';
+import { LoginPageComponent } from './login-buttons/login-page.component';
 import { LoginScreenComponent } from './login-screen/login-screen.component';
 import { SignupScreenComponent } from './signup-screen/signup-screen.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
