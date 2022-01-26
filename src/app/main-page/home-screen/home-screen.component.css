@@ -1,0 +1,8 @@
+.divider {
+    color: brown;
+    width: 15%;
+    margin: 12em;
+    padding: 12em, 18em;
+    border-radius: 10%;
+    border-style: solid;
+}
