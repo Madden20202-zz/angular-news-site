@@ -1,8 +1,7 @@
 .divider {
-    color: brown;
-    width: 15%;
-    margin: 12em;
-    padding: 12em, 18em;
-    border-radius: 10%;
+    color: rgb(161, 50, 50);
+    /* This needed to make it 
+    go the full page width */
+    width: 100%; 
     border-style: solid;
 }
