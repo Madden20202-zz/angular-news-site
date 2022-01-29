@@ -8,12 +8,12 @@ import { HomeScreenComponent } from './main-page/home-screen/home-screen.compone
 
 const routes: Routes = [
   { path: 'login', component: LoginScreenComponent },
-  { path: 'sign-up', component: SignupScreenComponent},
-  { path: 'home', component: HomeScreenComponent},
+  { path: 'sign-up', component: SignupScreenComponent },
+  { path: 'home', component: HomeScreenComponent },
   // the redirect has to be in front of the wild card
   // in order to function properly, otherwise it will 
   // use the wild card, making the redirect useless
-  { path: '', redirectTo: '/home', pathMatch: 'full'},
+  { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: '**', component: PageNotFoundComponent },
 ];
 
