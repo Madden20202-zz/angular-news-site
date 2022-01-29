@@ -2,13 +2,15 @@
 
 .signUpForm {
     align-self: center;
+    background-color: burlywood;
 }
 
 .signUpSection {
-    margin: 4em;
-    padding: 2em;
-    border: 2em;
+    margin: 2em;
+    padding: 1em;
+    border: 1em;
     border-color: brown;
+    border-style: solid;
 }
 
 .button {
