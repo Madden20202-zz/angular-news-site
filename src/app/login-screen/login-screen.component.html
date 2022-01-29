@@ -6,4 +6,14 @@
 <div class="loginForm">
     <label for="username">Username: </label>
     <input id="username" type="text" [formControl]="username">
+
+    <label for="password">Password: </label>
+    <input id="password" type="text" [formControl]="password">
+
+    <label for="cowName">Cow Name: </label>
+    <input id="cowName" type="text" [formControl]="cowName">
+</div>
+
+<div>
+    <button class="button" (click)='onSubmit'> Submit </button>
 </div>
