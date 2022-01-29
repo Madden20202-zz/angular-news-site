@@ -11,13 +11,14 @@ const routes: Routes = [
   // issue has been found, the route is going
   // to /home/login rather than /login
   // finding tutorial to fix it
-  { path: 'login', component: LoginScreenComponent },
-  { path: 'sign-up', component: SignupScreenComponent },
-  { path: 'home', component: HomeScreenComponent },
+
   // the redirect has to be in front of the wild card
   // in order to function properly, otherwise it will 
   // use the wild card, making the redirect useless
   { path: '', redirectTo: '/home', pathMatch: 'full' },
+  { path: 'login', component: LoginScreenComponent },
+  { path: 'sign-up', component: SignupScreenComponent },
+  { path: 'home', component: HomeScreenComponent },
   { path: '**', component: PageNotFoundComponent },
 ];
 
