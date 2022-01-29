@@ -5,6 +5,7 @@ import {
   Validators, 
   FormControl
 } from '@angular/forms';
+import { User } from 'user/user.model';
 
 @Component({
   selector: 'app-signup-screen',
