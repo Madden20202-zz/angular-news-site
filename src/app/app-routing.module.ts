@@ -7,6 +7,10 @@ import { SignupScreenComponent } from './signup-screen/signup-screen.component';
 import { HomeScreenComponent } from './main-page/home-screen/home-screen.component';
 
 const routes: Routes = [
+
+  // issue has been found, the route is going
+  // to /home/login rather than /login
+  // finding tutorial to fix it
   { path: 'login', component: LoginScreenComponent },
   { path: 'sign-up', component: SignupScreenComponent },
   { path: 'home', component: HomeScreenComponent },
