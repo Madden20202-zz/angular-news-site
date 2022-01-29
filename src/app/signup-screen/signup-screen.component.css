@@ -1,0 +1,18 @@
+/* styles for the sign up section */
+
+.signUpForm {
+    align-self: center;
+}
+
+.signUpSection {
+    margin: 12em;
+    padding: 8em;
+    border: 2em;
+    border-color: brown;
+}
+
+.button {
+    color: brown;
+    text-align: center;
+    border-radius: 18%;
+}
