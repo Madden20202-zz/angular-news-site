@@ -12,7 +12,7 @@ import {
   styleUrls: ['./signup-screen.component.css']
 })
 export class SignupScreenComponent implements OnInit {
-  
+
   // all form controls
   username = new FormControl('');
   password = new FormControl('');
@@ -21,9 +21,7 @@ export class SignupScreenComponent implements OnInit {
   loading = false;
 
 
-  constructor(
-    private formBuilder: FormBuilder,
-  ) { }
+  constructor() { }
 
   ngOnInit(): void {
   }

@@ -3,15 +3,24 @@
 <!-- make a form for users needing a new account -->
 
 <h1> What Cow are You?</h1>
-<div class="loginForm">
-    <label for="username">Username: </label>
-    <input id="username" type="text" [formControl]="username">
+<div class="signUpForm">
+    <section class="signUpSection">
+        <label for="username">Username: </label>
+        <input id="username" type="text" [formControl]="username">
+        <br />
+    </section>
 
-    <label for="password">Password: </label>
-    <input id="password" type="text" [formControl]="password">
+    <section class="signUpSection">
+        <label for="password">Password: </label>
+        <input id="password" type="text" [formControl]="password">
+        <br />
+    </section>
 
-    <label for="cowName">Cow Name: </label>
-    <input id="cowName" type="text" [formControl]="cowName">
+    <section class="signUpSection">
+        <label for="cowName">Cow Name: </label>
+        <input id="cowName" type="text" [formControl]="cowName">
+        <br />
+    </section>
 </div>
 
 <div>
