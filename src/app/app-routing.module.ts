@@ -8,16 +8,15 @@ import { HomeScreenComponent } from './main-page/home-screen/home-screen.compone
 
 const routes: Routes = [
 
-  // issue has been found, the route is going
-  // to /home/login rather than /login
-  // finding tutorial to fix it
+  // in the path: option the whole path has to be 
+  // added in, otherwise the 404 error shows
 
   // the redirect has to be in front of the wild card
   // in order to function properly, otherwise it will 
   // use the wild card, making the redirect useless
   { path: '', redirectTo: '/home', pathMatch: 'full' },
-  { path: 'login', component: LoginScreenComponent },
-  { path: 'sign-up', component: SignupScreenComponent },
+  { path: 'home/login', component: LoginScreenComponent },
+  { path: 'home/sign-up', component: SignupScreenComponent },
   { path: 'home', component: HomeScreenComponent },
   { path: '**', component: PageNotFoundComponent },
 ];
