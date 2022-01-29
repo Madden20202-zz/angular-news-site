@@ -1,6 +1,6 @@
 export class User {
     userName = '';
     userPassword = '';
-    nickName = '';
+    cowName = '';
     isACow = false;
 }

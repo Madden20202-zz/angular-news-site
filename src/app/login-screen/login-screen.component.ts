@@ -14,9 +14,12 @@ import {
 
 export class LoginScreenComponent implements OnInit {
 
-  loginForm = new FormControl('');
+  // all form controls
+  username = new FormControl('');
+  password = new FormControl('');
+  cowName = new FormControl('');
+
   loading = false;
-  newUserSubmission = false;
 
 
   constructor(
