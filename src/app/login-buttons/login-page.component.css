@@ -23,6 +23,7 @@ button:hover {
 }
 
 .loginSection{
+    flex-direction: row;
     margin: 20px;
     padding: 5px;
 }
