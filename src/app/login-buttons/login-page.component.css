@@ -16,13 +16,10 @@ button:hover {
     opacity: 0.6;
 }
 
-.login-question {
+.login-section{
     font-size: 10px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
-}
-
-.loginSection{
     margin: 20px;
     padding: 5px;
 }

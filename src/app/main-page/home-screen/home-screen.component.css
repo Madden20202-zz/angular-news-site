@@ -11,3 +11,8 @@
     font-style: italic;
     font-family: 'Courier New', Courier, monospace;
 }
+
+.button-shelf {
+    display: flex;
+    flex-direction: row;
+}
