@@ -20,6 +20,13 @@ button:hover {
     font-size: 10px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
+<<<<<<< HEAD
+=======
+}
+
+.loginSection{
+    flex-direction: row;
+>>>>>>> 6fba8e5dc459291ba86d5bc723eedcd9a2f9ca28
     margin: 20px;
     padding: 5px;
 }
