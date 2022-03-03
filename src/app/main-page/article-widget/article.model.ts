@@ -4,4 +4,5 @@ import { User } from "user/user.model";
     title = new String();
     content = new String();
     author = User;
+    popular = true;
 }
