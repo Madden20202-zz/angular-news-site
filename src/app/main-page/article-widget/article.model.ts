@@ -19,6 +19,7 @@ import { User } from "user/user.model";
         }
     }
 
+    // Work on moving these to their own area
     updateArticle(/*figure out what is needed here*/) {
         // This would update up/down votes, comments, etc
         console.log("I would allow the article to update!");
