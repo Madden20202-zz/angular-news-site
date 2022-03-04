@@ -6,6 +6,10 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 import { SignupScreenComponent } from './signup-screen/signup-screen.component';
 import { HomeScreenComponent } from './main-page/home-screen/home-screen.component';
 
+// Firebase Imports
+import { initializeApp } from 'firebase/app';
+import { getAnalytics } from 'firebase/analytics';
+
 const routes: Routes = [
 
   // in the path: option the whole path has to be 
