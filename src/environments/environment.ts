@@ -4,6 +4,13 @@
 
 export const environment = {
   production: false
+  firebase: {
+    apikey: ,
+    authDomain: ,
+    databaseURL: ,
+    projectId: ,
+    messengingSenderId: ,
+  }
 };
 
 /*
