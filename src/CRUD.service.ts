@@ -1,6 +1,6 @@
 import { User } from "user/user.model";
 
- export class articlePost{
+ export class articlePost {
     title = new String();
     content = new String();
     author = User;
@@ -19,6 +19,10 @@ import { User } from "user/user.model";
         }
     }
 
+}
+
+export class articleUpdates {
+
     // Work on moving these to their own file
     // this is making a super class
     updateArticle(/*figure out what is needed here*/) {
@@ -35,6 +39,5 @@ import { User } from "user/user.model";
         popular = true;
         return popular;    
     }
-
 
 }
