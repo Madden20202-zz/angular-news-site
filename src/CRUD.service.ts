@@ -23,8 +23,6 @@ import { User } from "user/user.model";
 
 export class articleUpdates {
 
-    // Work on moving these to their own file
-    // this is making a super class
     updateArticle(/*figure out what is needed here*/) {
         // This would update up/down votes, comments, etc
         console.log("I would allow the article to update!");
