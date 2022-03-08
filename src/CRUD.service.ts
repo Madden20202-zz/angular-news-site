@@ -1,4 +1,5 @@
 import { User } from "user/user.model";
+import { DocumentReference, Firestore } from "@google-cloud/firestore";
 
  export class articlePost {
     title = new String();
@@ -9,7 +10,7 @@ import { User } from "user/user.model";
     date = new Date();
 
     createArticle(value: any) {
-        this.postdata = {
+        value.update = {
             title: this.title.valueOf(),
             author: this.author.valueOf(),
             searchTags: this.searchTag.valueOf(),
@@ -17,13 +18,15 @@ import { User } from "user/user.model";
             popular: this.popular.valueOf(),
             date: this.date.valueOf(),
         }
+        // Find a way to get it to firebase
+        console.log(value);
     }
 
 }
 
 export class articleUpdates {
 
-    updateArticle(/*figure out what is needed here*/) {
+    updateArticle(type: any) {
         // This would update up/down votes, comments, etc
         console.log("I would allow the article to update!");
     }
