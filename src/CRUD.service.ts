@@ -1,6 +1,8 @@
 import { User } from "user/user.model";
 import { DocumentReference, Firestore } from "@google-cloud/firestore";
 
+const db = new Firestore();
+
  export class articlePost {
     title = new String();
     content = new String();
@@ -20,6 +22,7 @@ import { DocumentReference, Firestore } from "@google-cloud/firestore";
         }
         // Find a way to get it to firebase
         console.log(value);
+        db.DocumentReference.{(value)};
     }
 
 }
