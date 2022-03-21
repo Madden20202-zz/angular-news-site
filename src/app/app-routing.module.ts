@@ -6,25 +6,6 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 import { SignupScreenComponent } from './signup-screen/signup-screen.component';
 import { HomeScreenComponent } from './main-page/home-screen/home-screen.component';
 
-// Firebase Imports
-import { initializeApp } from 'firebase/app';
-import { getAnalytics } from 'firebase/analytics';
-
-const firebaseConfig = {
-  apiKey: "AIzaSyDVpw1UcLWTf3k-ad1bbx5-6TWDh2lJW9k",
-  authDomain: "angular-news-site-2c6bd.firebaseapp.com",
-  projectId: "angular-news-site-2c6bd",
-  storageBucket: "angular-news-site-2c6bd.appspot.com",
-  messagingSenderId: "548449435605",
-  appId: "1:548449435605:web:2049468cf51ce27d70075c",
-  measurementId: "G-R6YHJNT5P5"
-};
-
-// Initializes the Firebase work
-
-const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
-
 const routes: Routes = [
 
   // in the path: option the whole path has to be 
