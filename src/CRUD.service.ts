@@ -2,7 +2,7 @@ import { User } from "user/user.model";
 import { Firestore, DocumentData } from "@google-cloud/firestore";
 
 // Firebase Imports
-import { Firebase } from 'firebase/app';
+import { FirebaseApp } from 'firebase/app';
 import "firebase/firestore";
 
 const firebaseConfig = {
